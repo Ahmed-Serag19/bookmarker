@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmarker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container pt-5 mt-2">
+        <h2 class="text-secondary">Bookmark</h2>
+      </div>
+      <section class="main mt-5 pt-2">
+        <div
+          class="container border-top border-bottom py-3 border-1 border-dark"
+        >
+          <div class="row">
+            <div class="form-container bg-light text-center">
+              <h3 class="pt-5">Bookmark your favorite sites</h3>
+              <label class="col-8 fw-bold py-3" for="bookmarkName"
+                >Site Name</label
+              >
+              <input
+                class="col-9"
+                type="text"
+                id="bookmarkName"
+                class="form-control border-light text-muted"
+                placeholder="Bookmark Name"
+              />
+              <label class="col-8 fw-bold py-3" for="websiteUrl"
+                >Site Name</label
+              >
+              <input
+                class="col-9"
+                type="text"
+                id="websiteUrl"
+                class="form-control border-light text-muted"
+                placeholder="website URL"
+              />
+              <br />
+              <button class="btn bg-primary my-4" onclick="addbookMark()">
+                Submit
+              </button>
+            </div>
+            <div class="mt-4">
+              <div id="url-output" class="container"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="container py-5">
+          <p class="text-secondary">© 2019 Bookmarker Inc.</p>
+        </div>
+      </footer>
+    </header>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

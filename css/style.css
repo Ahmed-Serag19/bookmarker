@@ -1,0 +1,33 @@
+#url-output {
+  display: flex;
+  flex-direction: column;
+  background: rgb(190, 203, 205);
+  background: linear-gradient(
+    0deg,
+    rgba(190, 203, 205, 1) 0%,
+    rgba(240, 240, 255, 1) 35%,
+    rgba(248, 249, 250, 1) 100%
+  );
+}
+
+.url-container {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.btn {
+  color: white;
+}
+button a {
+  color: white;
+  text-decoration: none;
+}
+button a:hover {
+  color: white;
+}
+
+button:hover {
+  box-shadow: 3px 3px rgb(180, 180, 180);
+  color: white;
+}
